@@ -1,0 +1,39 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#081b29;
+  color: white;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.nav-links{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links{
+  cursor: pointer;
+}
+
+/* Hero Section */
+
+.section{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:80px 100px;
+}
+
+
+.hero-image img{
+  width:300px;
+  border-radius:50%;
+  border:5px solid #00e5ff;
+}
